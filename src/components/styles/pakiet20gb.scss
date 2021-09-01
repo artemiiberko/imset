@@ -1,0 +1,67 @@
+.pakiet20gb {
+  width: 100%;
+  height: 100%;
+  background-color: #262626;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  line-height: 1;
+  text-align: left;
+  h1 {
+    display: flex;
+    justify-content: left;
+    color: #84b82a;
+    text-transform: uppercase;
+    font-size: 40px;
+  }
+  h2 {
+    font-size: 14px;
+    color: #675190;
+    text-transform: uppercase;
+  }
+  p {
+    padding: 20px 0px;
+    font-size: 16px;
+    color: white;
+  }
+  ul {
+    margin: 0px;
+    font-size: 16px;
+    list-style: none;
+    margin-left: 0;
+    padding-left: 1em;
+    text-indent: -1em;
+    color: white;
+    line-height: 1.5;
+    li {
+    }
+    li::before {
+      color: #84b82a;
+      content: "■";
+      padding-right: 5px;
+    }
+  }
+  &__pakiet {
+    padding-top: 5px;
+    display: flex;
+    justify-content: flex-end;
+    text-transform: uppercase;
+    color: #84b82a;
+    &__name {
+      text-indent: 6rem;
+      width: 200px;
+      font-size: 18px;
+      text-align: right;
+      padding-top: 8px;
+      padding-right: 20px;
+    }
+    &__price {
+      color: #675190;
+      font-size: 25px;
+      span {
+        font-size: 50px;
+      }
+    }
+  }
+}

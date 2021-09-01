@@ -1,0 +1,13 @@
+.vod {
+  position: relative;
+  top: 45%;
+
+  &__arrowPrev {
+    position: absolute;
+    left: 30px;
+  }
+  &__arrowNext {
+    position: absolute;
+    right: 30px;
+  }
+}
